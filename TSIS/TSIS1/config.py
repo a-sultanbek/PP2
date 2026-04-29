@@ -11,3 +11,10 @@ PASSWORD = "11111"
 HOST = "localhost"
 # Port number for PostgreSQL (default is 5432)
 PORT = "5432"
+DB_CONFIG = {
+    "dbname": DB_NAME,
+    "user": USER,
+    "password": PASSWORD,
+    "host": HOST,
+    "port": PORT
+}
